@@ -1,0 +1,18 @@
+### GET request to example server
+GET http://localhost:8080/
+
+### GET request to amigos database
+GET http://localhost:8080/api/v1/software-engineers
+
+### Send POST request with json body
+POST http://localhost:8080/api/v1/software-engineers
+Content-Type: application/json
+
+{
+  "name": "Jane Locke",
+  "techStack": "C"
+}
+
+### GET request with id = 1
+GET http://localhost:8080/api/v1/software-engineers/1
+
